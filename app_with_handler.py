@@ -19,8 +19,8 @@ app = Flask(__name__)
 led_status = '0'
 
 #要改channel_secret和channel_access_token
-channel_secret = '757c36f94e9a21ea62b39fc7ac25deeb'
-channel_access_token = 'RPX1JqRpcFhRLckymAl3VPImOXPXOSBC5xVYzbKKRfS8idqnqwDWrt2pNeeygR9XaC0Nk6o5xiaDBjyq2aNOPMYvHOT+RInnPC/AFDNRdAyhhXOCxrvHaZJTluzFUBNcnVWzQbZv2CVjb9BlY9nJdQdB04t89/1O/w1cDnyilFU='
+channel_secret = 'your channel'
+channel_access_token = 'your token'
 if channel_secret is None:
     print('Specify LINE_CHANNEL_SECRET as environment variable.')
     sys.exit(1)
